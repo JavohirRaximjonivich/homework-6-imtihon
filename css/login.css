@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.site-login{
+    background: linear-gradient(71.17deg, #a4a497 19.35%, #b3ad95 90.12%);
+}
+.login-form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 415px;
+}
+.title{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.sign-in{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #eee8e8;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input{
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 15px;
+    &::placeholder{
+        color: #CDCDCD;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 175px auto;
+    width: 475px;
+    border-radius: 20px;
+    padding: 44px 30px 85px;
+    background-color: hsl(0, 1%, 40%);
+    box-shadow: 2px 5px 10px 0px #0000001A;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    gap: 12.5px;
+    margin-bottom: 43px;
+}
+.line{
+    width: 4px;
+    height: 39px;
+    background-color: #F8D442;
+}
+.button{
+    padding: 14px 180px;
+    background: hsl(48, 2%, 48%);
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 4px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: hwb(59 39% 44% / 0.338);
+    color: hwb(222 23% 72%);
+    box-shadow:#ACACAC 2px 1px 2px 1px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.product-container {
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}

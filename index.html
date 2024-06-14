@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login Page</title>
+</head>
+<body class="site-login">
+    <div class="wrapper">
+        <div class="wrap">
+            <span class="line"></span>
+            <h1 class="title">Imtihon Login</h1>
+        </div>
+        <strong class="sign-in">SIGN IN</strong>
+        <p class="text">Hisobingizga kirish uchun hisob ma'lumotlaringizni kiriting</p>
+        <form id="login-form" class="login-form">
+            <label class="label">
+                <span class="item">Email</span>
+                <input class="input"  id="email" type="email" required placeholder="Enter your email">
+            </label>
+            <label class="label">
+                <span class="item">Password</span>
+                <input class="input" type="password" id="password" required placeholder="Enter your password">
+            </label>
+            <button class="button">SIGN IN</button>
+        </form>
+        <p class="error-message" id="error-message"></p>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

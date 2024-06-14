@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2dbdbdd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #a8a8a8;
+    box-shadow: 0 0 10px #ebe7e71a;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.add-btn{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(34, 31, 26) 0%, rgb(56, 52, 33) 100%);
+    color: #a09393;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.logout-btn {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(34, 31, 26) 0%, rgb(56, 52, 33) 100%);
+    color: #e1e1e1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.logout-btn:hover{
+   background-color:rgb(48, 47, 45);
+   color:#fefefe;
+}
+
+.add-btn:hover, .logout-btn:hover {
+    background-color: linear-gradient(90deg, rgb(72, 72, 81) 0%, rgb(97, 93, 82) 0%, rgba(247, 211, 66, 1) 100%);
+}
+.productForm{
+    border: 1px solid #8f8c8c;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#productList {
+    margin-top: 20px;
+}
+
+.product-item {
+    background-color: #8f8c8c;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-btn, .delete-btn {
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: rgb(43, 45, 43);
+    color: #fff;
+    width: 100px;
+}
+.edit-btn:hover{
+    background-color: rgb(146, 132, 132);
+    color: #fff;
+    border-radius: 50px;
+    width: 100px;
+    transition: 0.5ms;
+    box-shadow: 0 0 10px rgba(47, 46, 46, 0.1);
+}
+
+.delete-btn {
+    background-color: rgb(49, 45, 45);
+    color: #fff;
+    width: 100px;
+}
+.delete-btn:hover{
+    background-color: rgb(146, 132, 132);
+    color: #fff;
+    border-radius: 50px;
+    
+}
